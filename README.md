@@ -195,3 +195,11 @@ Only updates the fields included in the request
     - String
 
 ```
+
+# Using iBeacons with Clio
+
+The Clio mobile app can detect iBeacons and prompt the user with the option to navigate to the entry associated the the detected beacons. For this to happen, several configuration options need to be set on the iBeacon
+
+## Configuration
+
+### Tags
