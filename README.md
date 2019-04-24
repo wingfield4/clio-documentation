@@ -1,6 +1,7 @@
 # Clio Organization API
 
-App URL: https://clio-1532190191611.appspot.com
+Base App URL: https://clio-1532190191611.appspot.com
+Base Image URL: https://storage.googleapis.com/clio-images/
 
 ## Authentication
 Many API requests require authentication with a JWT. To authenticate a request, this must be included in the request’s header:
