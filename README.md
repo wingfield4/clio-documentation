@@ -198,8 +198,23 @@ Only updates the fields included in the request
 
 # Using iBeacons with Clio
 
-The Clio mobile app can detect iBeacons and prompt the user with the option to navigate to the entry associated the the detected beacons. For this to happen, several configuration options need to be set on the iBeacon
+The Clio mobile app can detect iBeacons and prompt the user with the option to navigate to the entry associated the the detected beacons. For this to happen, several configuration options need to be set on the iBeacon. 
 
 ## Configuration
 
 ### Tags
+
+The beacon must have the tag 'clio'
+
+### Attachments
+
+The beacon must have the following attachments:
+
+```json
+  entryId: <ENTRY_ID_HERE>
+  title: <ENTRY_TITLE_HERE>
+  
+```
+
+The entryId is the id of the entry that will be shown if the user click through the beacon prompt.
+The title does not have to match the title of entry exactly, but should represent what the entry is.
