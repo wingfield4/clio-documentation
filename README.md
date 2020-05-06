@@ -1,6 +1,6 @@
 # Clio Organization API
 
-Base App URL: https://clio-1532190191611.appspot.com
+Base App URL: https://theclio.com
 Base Image URL: https://storage.googleapis.com/clio-images/
 
 ## Authentication
